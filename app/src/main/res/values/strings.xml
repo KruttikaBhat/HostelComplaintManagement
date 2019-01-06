@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hostel Complaint Management</string>
+    <string-array name="civil">
+        <item>Plumbing(Civil)</item>
+        <item>Carpentry(Civil)</item>
+        <item>Appliances(Civil)</item>
+    </string-array>
+    <string-array name="others">
+        <item>Common Electrical(Others Category)</item>
+        <item>Common Appliances(Others Category)</item>
+        <item>Common Civil(Others Category)</item>
+    </string-array>
+</resources>

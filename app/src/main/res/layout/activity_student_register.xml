@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.hostelcomplaintmanagement.StudentRegister"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/regRollno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Roll number"
+                android:layout_marginTop="16dp"
+                />
+            <EditText
+                android:id="@+id/regName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_marginTop="16dp"
+                />
+            <EditText
+                android:id="@+id/regPhno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:layout_marginTop="16dp"
+                />
+            <EditText
+                android:id="@+id/regGen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gender"
+                android:layout_marginTop="16dp"
+                />
+
+            <EditText
+                android:id="@+id/regPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:layout_marginTop="16dp"
+                />
+
+            <EditText
+                android:id="@+id/regHostel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hostel Name"
+                android:layout_marginTop="16dp"
+                />
+            <EditText
+                android:id="@+id/regRoomNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Room number"
+                android:layout_marginTop="16dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_marginTop="16dp"
+                android:onClick="OnReg"
+                />
+        </LinearLayout>
+
+
+    </TableLayout>
+</ScrollView>
